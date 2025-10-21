@@ -1,12 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
- */
+
 package pila;
 
 /**
- *
- * @author Victoria
+ *Este ejercicio fue realizado en clase con el fin de fortalecer mi conocimiento 
+ de manera practica sobre el tema de Pilas. Creamos esta clase con el proposito de 
+ elaborar las operaciones que realizan las pilas y el comportmiento de ella.
+ * @author Nataly Victoria Gonzalez Aviles-GTI0141 
+ *Viernes 17 de Octubre de 2025.
+ Estructura de datos
  */
 public interface IStack <T> {
     void push(T element);
@@ -15,3 +16,4 @@ public interface IStack <T> {
     boolean isEmpty();
     
 }
+
