@@ -2,8 +2,10 @@
 package pila;
 
 /**
- *
- * @author Victoria
+ *Este ejercicio fue realizado en clase con el fin de fortalecer mi conocimiento de maner practica sobre el tema de Pilas
+ * @author Nataly Victoria Gonzalez Aviles-GTI0141 
+ *Viernes 17 de Octubre de 2025.
+ Estructura de datos
  */
 
 public class MainPila {
@@ -33,3 +35,4 @@ public class MainPila {
         System.out.println("Elemento en la cima final: " + pila.peek());
     }
 }
+
