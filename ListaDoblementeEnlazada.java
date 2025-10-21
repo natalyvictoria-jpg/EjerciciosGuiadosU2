@@ -1,113 +1,124 @@
+
 package listadoble;
 
 // ===============================================
-// ACTIVIDAD EN CLASE: Lista Simplemente Enlazada
+// ACTIVIDAD EN CLASE: Lista Doblemente Enlazada
 // Materia: Estructura de Datos
-// Descripción: Implementación de una lista simplemente enlazada
+// Descripción: Implementación de una lista doblemente enlazada
 //              basada en el pseudocódigo trabajado en clase.
 // Autor: Nataly Victoria González Aviles - GTID0141
 // ===============================================
 
-class NodoSimple {
+class Nodo {
     String dato;
-    NodoSimple sig;
+    Nodo ant;
+    Nodo sig;
 
     // Constructor del nodo
-    public NodoSimple(String valor) {
-        dato = valor;
+    public Nodo(String d) {
+        dato = d;
+        ant = null;
         sig = null;
     }
 }
 
-public class ListaSimplementeEnlazada {
-    NodoSimple inicio;
+public class ListaDoblementeEnlazada {
+    Nodo inicio;
 
-    // Creación de la lista
+    // Creación de la lista según el pseudocódigo
     public void crearLista() {
-        NodoSimple Ana = new NodoSimple("Ana");
-        NodoSimple Benjamin = new NodoSimple("Benjamín");
-        NodoSimple Carla = new NodoSimple("Carla");
-        NodoSimple Diego = new NodoSimple("Diego");
+        Nodo programacion = new Nodo("Programación");
+        Nodo matematicas = new Nodo("Matemáticas");
+        Nodo ingles = new Nodo("Inglés");
+        Nodo fisica = new Nodo("Física");
 
-        // Enlaces
-        Ana.sig = Benjamin;
-        Benjamin.sig = Carla;
-        Carla.sig = Diego;
-        Diego.sig = null;
+        // Enlaces hacia adelante
+        programacion.sig = matematicas;
+        matematicas.sig = ingles;
+        ingles.sig = fisica;
 
-        inicio = Ana;
+        // Enlaces hacia atrás
+        matematicas.ant = programacion;
+        ingles.ant = matematicas;
+        fisica.ant = ingles;
+
+        // Asignar inicio
+        inicio = programacion;
     }
 
-    // Inserción: Elena entre Carla y Diego
-    public void insertarElena() {
-        NodoSimple nuevo = new NodoSimple("Elena");
-        NodoSimple aux = inicio;
+    // Recorrido hacia adelante
+    public void recorrerAdelante() {
+        Nodo aux = inicio;
+        System.out.print("Recorrido hacia adelante: ");
         while (aux != null) {
-            if (aux.dato.equals("Carla")) {
-                nuevo.sig = aux.sig;
-                aux.sig = nuevo;
-                System.out.println("Se insertó 'Elena' entre Carla y Diego.\n");
-                break;
-            }
-            aux = aux.sig;
-        }
-    }
-
-    // Inserción: Dalia al final
-    public void insertarDalia() {
-        NodoSimple nuevo = new NodoSimple("Dalia");
-        NodoSimple aux = inicio;
-        while (aux.sig != null) {
-            aux = aux.sig;
-        }
-        aux.sig = nuevo;
-        System.out.println("Se insertó 'Dalia' al final.\n");
-    }
-
-    // Eliminación: Benjamín
-    public void eliminarBenjamin() {
-        NodoSimple aux = inicio;
-        while (aux.sig != null) {
-            if (aux.sig.dato.equals("Benjamín")) {
-                aux.sig = aux.sig.sig;
-                System.out.println("Se eliminó 'Benjamín' de la lista.\n");
-                break;
-            }
-            aux = aux.sig;
-        }
-    }
-
-    // Recorrer la lista
-    public void recorrer() {
-        NodoSimple aux = inicio;
-        System.out.print("Lista: ");
-        while (aux != null) {
-            System.out.print("[" + aux.dato + "] → ");
+            System.out.print("[" + aux.dato + "] ↔ ");
             aux = aux.sig;
         }
         System.out.println("NULL");
     }
 
-    // Programa principal
+    // Recorrido hacia atrás
+    public void recorrerAtras() {
+        if (inicio == null) return;
+
+        Nodo aux = inicio;
+        // Avanza al último nodo
+        while (aux.sig != null) {
+            aux = aux.sig;
+        }
+
+        System.out.print("Recorrido hacia atrás: ");
+        while (aux != null) {
+            System.out.print("[" + aux.dato + "] ↔ ");
+            aux = aux.ant;
+        }
+        System.out.println("NULL");
+    }
+
+    // Inserción al inicio (Historia)
+    public void insertarInicio() {
+        Nodo nuevo = new Nodo("Historia");
+        nuevo.sig = inicio;
+        inicio.ant = nuevo;
+        inicio = nuevo;
+        System.out.println("Se insertó 'Historia' al inicio.\n");
+    }
+
+    // Eliminación del nodo "Inglés"
+    public void eliminarIngles() {
+        Nodo aux = inicio;
+        while (aux != null) {
+            if (aux.dato.equals("Inglés")) {
+                aux.ant.sig = aux.sig;
+                aux.sig.ant = aux.ant;
+                System.out.println("Se eliminó el nodo 'Inglés'.\n");
+                break;
+            }
+            aux = aux.sig;
+        }
+    }
+
+    // Método principal
     public static void main(String[] args) {
-        ListaSimplementeEnlazada lista = new ListaSimplementeEnlazada();
+        ListaDoblementeEnlazada lista = new ListaDoblementeEnlazada();
 
         // 1. Crear la lista
         lista.crearLista();
-        lista.recorrer();
+        lista.recorrerAdelante();
 
-        // 2. Insertar "Elena"
-        lista.insertarElena();
-        lista.recorrer();
+        // 2. Insertar "Historia" al inicio
+        lista.insertarInicio();
+        lista.recorrerAdelante();
 
-        // 3. Insertar "Dalia"
-        lista.insertarDalia();
-        lista.recorrer();
+        // 3. Eliminar "Inglés"
+        lista.eliminarIngles();
+        lista.recorrerAdelante();
 
-        // 4. Eliminar "Benjamín"
-        lista.eliminarBenjamin();
-        lista.recorrer();
+        // 4. Recorrer hacia atrás
+        lista.recorrerAtras();
     }
 }
+
+
 
 
