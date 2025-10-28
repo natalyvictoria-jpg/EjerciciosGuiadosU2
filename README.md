@@ -1,4 +1,4 @@
-<h1 style="color:red;">💻🔗 Ejercicios Guiados – Listas Enlazadas y Pilas en Java</h1>
+<h1 style="color:red;">💻🔗 Ejercicios Guiados - Unidad 2</h1>
 
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/2721/2721292.png" alt="Programación en Java" width="180">
@@ -70,8 +70,13 @@ Además, comprender el funcionamiento de las **pilas** mediante su implementaci�
 ---
 
 
-# 🟦 Actividad 2 – Ejercicios Guiados (Colas en Java)
+# 🟦 Actividad 2 – Ejercicios Guiados (Colas en Java y Evidencia de actividades)
 Actividades realizadas en clase el dia Viernes 24 de Octubre de 2025.
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="Logo Java" width="160">
+</p>
+
 Este README contiene:
 - Evidencias de Curso de Pilas
 - Evidencias de ejercicio realizado en EducaPlay
