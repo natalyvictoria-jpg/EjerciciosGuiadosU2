@@ -112,6 +112,16 @@ Permite agregar nuevas tareas, consultar la primera, eliminarla o vaciar complet
 3. Observar cómo cambia el estado de la cola en cada operación.
 
 ---
+# Actividad 3
+## Ordenamiento Burbuja 
+
+### 📄 Ver PDF de la Actividad
+
+| Documento | Enlace |
+| ---------- | ------- |
+| Ejercicio de Ordenamiento Burbuja | [📘 Ver PDF](OrdenamientoBurbuja_) |
+
+---
 
 ## ✨ Autor
 
