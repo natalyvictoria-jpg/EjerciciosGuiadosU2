@@ -25,12 +25,33 @@
 | Lista circular | [ListaCircular.java](ListaCircular.java) |
 
 ---
+## 🧩 Actividades de Pilas
 
+<p align="center">
+  <img src="https://img.shields.io/badge/🧱%20Ejercicios%20Guiados%20de%20Pilas-orange?style=for-the-badge" alt="Actividades de Pilas">
+</p>
+
+### 📄 Ver PDF de la Actividad
+
+| Documento | Enlace |
+| ---------- | ------- |
+| Ejercicio de Pila de VisuAlGo | [📘 Ver PDF](EjerciciosGuiadasPilas/Ejercicio%20de%20Pila%20de%20VisuAlGo.pdf) |
+
+---
+
+### 💻 Ver Códigos
+
+| Parte del ejercicio | Código |
+| -------------------- | ------- |
+| Interfaz de pila | [IStack.java](IStack.java) |
+| Clase principal de pila | [MainPila.java](MainPila.java) |
+| Implementación con arreglo | [StackArray.java](StackArray.java) |
 
 
 
 
 ---
+
 
 # 🟦 Actividad 2 – Ejercicios Guiados (Colas en Java)
 ### 📄 Ver PDF del Proyecto
