@@ -1,3 +1,20 @@
+<h1 style="color:red;">💻🔗 Ejercicios Prácticos – Listas Enlazadas y Pilas en Java</h1>
+
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/2721/2721292.png" alt="Programación en Java" width="180">
+</p>
+
+## GTID0141
+
+📘 **Materia:** Estructura de Datos  
+👩‍💻❤️ **Nombre:** Nataly Victoria Gonzalez Aviles  
+🏫 **Proyecto:** Implementación de estructuras enlazadas en Java con NetBeans  
+📅 **Unidad:** 2 – Listas Enlazadas y Pilas  
+⚙️ **Lenguaje:** Java  
+🧠 **Propósito:** Desarrollar y aplicar diferentes tipos de listas enlazadas (simples, circulares y dobles) para manipular datos dinámicamente, reforzando el uso de nodos, referencias y recorridos.  
+Además, comprender el funcionamiento de las **pilas** mediante su implementación y uso en Java.
+
+
 # Actvidad 1 - Ejercicios Guiados (Listas)
 ## 🧾 Actividades de Listas
 
