@@ -1,10 +1,38 @@
+# Actvidad 1 - Ejercicios Guiados (Listas)
+## 🧾 Actividades de Listas
+
+<p align="center">
+  <img src="https://img.shields.io/badge/📚%20Ejercicios%20Guiados%20de%20Listas-blue?style=for-the-badge" alt="Actividades de Listas">
+</p>
+
+### 📄 Ver PDFs de la Actividad
+
+| Documento | Enlace |
+| ---------- | ------- |
+| Curso de Listas | [📘 Ver PDF](EjerciciosGuiadosListas/Curso%20de%20Listas.pdf) |
+| Ejercicio de Lista Enlazada Simple con VisuAlgo | [📘 Ver PDF](EjerciciosGuiadosListas/Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo.pdf) |
+| Ejercicios en clase de Listas | [📘 Ver PDF](EjerciciosGuiadosListas/Ejercicios%20en%20clase%20de%20Listas.pdf) |
+| Lista Encantada Humana | [📘 Ver PDF](EjerciciosGuiadosListas/ListaEncantadaHumana.pdf) |
+
+---
+
+### 💻 Ver Códigos
+
+| Parte del ejercicio | Código |
+| -------------------- | ------- |
+| Lista simplemente enlazada | [ListaSimplementeEnlazada.java](ListaSimplementeEnlazada.java) |
+| Lista doblemente enlazada | [ListaDoblementeEnlazada.java](ListaDoblementeEnlazada.java) |
+| Lista circular | [ListaCircular.java](ListaCircular.java) |
+
+---
+
 
 
 
 
 ---
 
-# 🟦 Actividad 2 – Ejercicios Prácticos (Colas en Java)
+# 🟦 Actividad 2 – Ejercicios Guiados (Colas en Java)
 ### 📄 Ver PDF del Proyecto
 
 | Recurso | Descripción | Enlace |
