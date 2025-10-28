@@ -1,4 +1,4 @@
-<h1 style="color:red;">💻🔗 Ejercicios Prácticos – Listas Enlazadas y Pilas en Java</h1>
+<h1 style="color:red;">💻🔗 Ejercicios Guiados – Listas Enlazadas y Pilas en Java</h1>
 
 <p align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/2721/2721292.png" alt="Programación en Java" width="180">
@@ -71,6 +71,12 @@ Además, comprender el funcionamiento de las **pilas** mediante su implementaci�
 
 
 # 🟦 Actividad 2 – Ejercicios Guiados (Colas en Java)
+Actividades realizadas en clase el dia Viernes 24 de Octubre de 2025.
+Este README contiene:
+- Evidencias de Curso de Pilas
+- Evidencias de ejercicio realizado en EducaPlay
+- Codigo de implementacion de pilas (Mi ejercicios fue realizado en clase, fue revisado por el docente)
+
 ### 📄 Ver PDF del Proyecto
 
 | Recurso | Descripción | Enlace |
