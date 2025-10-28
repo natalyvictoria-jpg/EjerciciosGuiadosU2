@@ -117,9 +117,9 @@ Permite agregar nuevas tareas, consultar la primera, eliminarla o vaciar complet
 
 ### 📄 Ver PDF de la Actividad
 
-| Documento | Enlace |
-| ---------- | ------- |
-| Ejercicio de Ordenamiento Burbuja | [📘 Ver PDF](OrdenamientoBurbuja_) |
+| 📄 Documento | Descripción |
+|--------------|-------------|
+| [Ver PDF](OrdenamientoBurbuja_.pdf) | Este documento contiene el ejemplo completo del algoritmo de **Ordenamiento Burbuja**, con explicación paso a paso y código implementado. |
 
 ---
 
