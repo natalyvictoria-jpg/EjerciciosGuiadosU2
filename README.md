@@ -119,7 +119,7 @@ Permite agregar nuevas tareas, consultar la primera, eliminarla o vaciar complet
 
 | 📄 Documento | Descripción |
 |--------------|-------------|
-| [Ver PDF](OrdenamientoBurbuja_.pdf) | Este documento contiene el ejemplo completo del algoritmo de **Ordenamiento Burbuja**, con explicación paso a paso y código implementado. |
+| [Ver PDF](OrdenamientoBurbuja_.pdf) | Este documento contiene el ejemplo completo de la actividad dinamica realiza en clase de **Ordenamiento Burbuja**, con conclusiones y reflexiones. |
 
 ---
 
