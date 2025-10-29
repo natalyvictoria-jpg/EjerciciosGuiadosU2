@@ -27,7 +27,7 @@ Además, comprender el funcionamiento de las **pilas** mediante su implementaci�
 | Documento | Enlace |
 | ---------- | ------- |
 | Curso de Listas | [📘 Ver PDF](EjerciciosGuiadosListas/Curso%20de%20Listas.pdf) |
-| Ejercicio de Lista Enlazada Simple con VisuAlgo | [📘 Ver PDF](docs/Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo.pdf) |
+| Ejercicio de Lista Enlazada Simple con VisuAlgo | [📘 Ver PDF](EjerciciosdeListaSimpleconVisuAlgo/Ejercicio%20de%20Lista%20Enlazada%20Simple%20con%20VisuAlgo.pdf) |
 | Ejercicios en clase de Listas | [📘 Ver PDF](EjerciciosGuiadosListas/Ejercicios%20en%20clase%20de%20Listas.pdf) |
 | Lista Encantada Humana | [📘 Ver PDF](EjerciciosGuiadosListas/ListaEncantadaHumana.pdf) |
 
