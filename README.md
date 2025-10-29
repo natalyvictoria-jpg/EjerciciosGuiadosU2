@@ -78,7 +78,7 @@ Actividades realizadas en clase el dia Viernes 24 de Octubre de 2025.
 </p>
 
 Este README contiene:
-- Evidencias de Curso de Pilas
+- Evidencias de Curso de Colas
 - Evidencias de ejercicio realizado en EducaPlay
 - Codigo de implementacion de pilas (Mi ejercicios fue realizado en clase, fue revisado por el docente)
 
