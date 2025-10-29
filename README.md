@@ -80,7 +80,7 @@ Actividades realizadas en clase el dia Viernes 24 de Octubre de 2025.
 Este README contiene:
 - Evidencias de Curso de Colas
 - Evidencias de ejercicio realizado en EducaPlay
-- Codigo de implementacion de pilas (Mi ejercicios fue realizado en clase, fue revisado por el docente)
+- Codigo de implementacion de colas (Mi ejercicios fue realizado en clase, fue revisado por el docente)
 
 ### 📄 Ver PDF del Proyecto
 
@@ -98,7 +98,7 @@ Aplicar las operaciones básicas de una **cola (Queue)** utilizando la clase `Li
 
 | Parte del ejercicio | Código                        |
 | -------------------- | ----------------------------- |
-| Implementación de la cola | [Cola1.java](Cola1.java) |
+| Implementación de la cola (Codigo revisado y validado en clase por el docente) | [Cola1.java](Cola1.java) |
 
 ### 💡 Descripción
 
