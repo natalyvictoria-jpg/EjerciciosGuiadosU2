@@ -122,6 +122,13 @@ Permite agregar nuevas tareas, consultar la primera, eliminarla o vaciar complet
 | [Ver PDF](OrdenamientoBurbuja_.pdf) | Este documento contiene el ejemplo completo de la actividad dinamica realiza en clase de **Ordenamiento Burbuja**, con conclusiones y reflexiones. |
 
 ---
+## Ejercicios de Ordenamiento 
+
+### 📄 Ver PDF de la Actividad
+
+| 📄 Documento | Descripción |
+|--------------|-------------|
+| [Ver PDF](EjerciciosdeOrdenamiento_.pdf) | Este documento contiene evidencias de la actividad practica en equipo realiza en clase de **Ejercicios de Ordenamiento**. |
 
 ## ✨ Autor
 
